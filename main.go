@@ -82,7 +82,7 @@ func main() {
 		}
 
 		if lastBgColor != bg {
-			output = append(output, fmt.Sprintf(" #[fg=%s,bg=%s]#[fg=%s,bg=%s] ",
+			output = append(output, fmt.Sprintf(" #[fg=%s,bg=%s]\ue0b2#[fg=%s,bg=%s] ",
 				bg, lastBgColor, fg, bg,
 			))
 		} else {
